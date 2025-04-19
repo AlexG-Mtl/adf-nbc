@@ -1,0 +1,25 @@
+{
+	"name": "tr_01",
+	"properties": {
+		"description": "every 10 hours",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_one",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 10,
+				"startTime": "2025-04-19T18:50:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}
