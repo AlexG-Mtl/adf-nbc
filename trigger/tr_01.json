@@ -1,14 +1,15 @@
 {
 	"name": "tr_01",
 	"properties": {
+		"description": "every 10 hours",
 		"annotations": [],
 		"runtimeState": "Stopped",
 		"pipelines": [],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Minute",
-				"interval": 15,
+				"frequency": "Hour",
+				"interval": 10,
 				"startTime": "2025-04-19T18:50:00",
 				"timeZone": "Eastern Standard Time"
 			}
