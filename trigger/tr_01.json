@@ -4,7 +4,14 @@
 		"description": "every 10 hours",
 		"annotations": [],
 		"runtimeState": "Stopped",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_one",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
