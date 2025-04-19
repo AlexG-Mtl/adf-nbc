@@ -1,0 +1,9 @@
+{
+	"name": "adf-nbc-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4486b253-bec3-48f6-89ed-67a57abbda7b",
+		"tenantId": "4334cb49-17b3-4887-9408-30e734be4965"
+	}
+}
