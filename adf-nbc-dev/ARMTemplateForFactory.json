@@ -157,6 +157,38 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 1
 						}
+					},
+					{
+						"name": "Wait A_copy1",
+						"type": "Wait",
+						"dependsOn": [
+							{
+								"activity": "Wait A",
+								"dependencyConditions": [
+									"Skipped"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 1
+						}
+					},
+					{
+						"name": "Wait A_copy1_copy1",
+						"type": "Wait",
+						"dependsOn": [
+							{
+								"activity": "Wait A_copy1",
+								"dependencyConditions": [
+									"Skipped"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 1
+						}
 					}
 				],
 				"policy": {
